@@ -11,13 +11,26 @@ config_version=5
 [application]
 
 config/name="GloriaProjetTest"
+run/main_scene="uid://3gh56pe751ik"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://icon.svg"
+
+[audio]
+
+buses/default_bus_layout="uid://08g11kgm0ghr"
+
+[autoload]
+
+Music="*uid://ytqi07tgnyuo"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[layer_names]
+
+2d_physics/layer_2="pan"
 
 [physics]
 
